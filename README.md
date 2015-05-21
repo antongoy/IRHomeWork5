@@ -1,10 +1,10 @@
 # IRHomeWork5
 
-Site: lenta.ru
+## Site: lenta.ru
 url\_extractor.py --- mapper. Require: file urls.txt (docids and corresponding urls).
 url\_extractor\_run.sh --- script for running mapreduce task with url_extractor.py
 
-PageRank:
+## PageRank:
 init\_mapper.py --- transform graph (url\_extractor's output) into graph with pageranks.
 init\_run.sh --- script for running mapreduce task with init\_mapper.py
 
@@ -16,7 +16,7 @@ run.sh = init\_run.sh + pagerank_run.sh
 top30.py --- locally compute top30. Read from stdin.
 top30.txt --- results after 5 iterations.
 
-HITS:
+## HITS:
 init\_mapper.py and init\_reducer.py --- transform graph (url\_extractor's output) into graph with authority and hub ranks. Add inverse edges.
 init\_run.sh --- script for running mapreduce task with init\_mapper.py and init\_reducer.py
 
