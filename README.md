@@ -1,9 +1,11 @@
 # IRHomeWork5
 
 ##Paths:
-Raw graph: /user/a.goi/graph-lenta/part-00000
-PageRank:  /user/a.goi/graph-lenta-pagerank/input.txt
-HITS: /user/a.goi/graph-lenta-hits/input.txt
+*Raw graph:* /user/a.goi/graph-lenta/part-00000
+
+*PageRank:*  /user/a.goi/graph-lenta-pagerank/input.txt
+
+*HITS:* /user/a.goi/graph-lenta-hits/input.txt
 
 ## Site: lenta.ru
 *url\_extractor.py* --- mapper. Require: file urls.txt (docids and corresponding urls).
