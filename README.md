@@ -5,7 +5,7 @@
 
 *PageRank:*  /user/a.goi/graph-lenta-pagerank/input.txt
 
-*HITS:* /user/a.goi/graph-lenta-hits/input.txt
+*HITS:* /user/a.goi/graph-lenta-hits/part-0000(0|1)
 
 ## Site: lenta.ru
 *url\_extractor.py* --- mapper. Require: file urls.txt (docids and corresponding urls).
